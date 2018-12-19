@@ -1,0 +1,171 @@
+@import url('reset.css');
+
+body {
+	font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	background: url('../images/bg.jpg') bottom repeat-x #868686;
+}
+
+h1 {font-size:2.6em;line-height:16pt;margin: 5px 0;	vertical-align: middle; position: relative;}
+h2 {font-size:3em;line-height:30pt}
+p {font-size:1.6em; line-height: 1.4em;}
+em {font-size:10pt;}
+a {text-decoration: none;}
+
+h1.title span {
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	font-size: 50px;
+}
+#container {
+	width: 980px;
+	margin: 0px auto;
+}
+
+#logo {
+	height: 25px;
+	padding: 10px 0px 10px 10px;
+	border-top: #ccc;
+	border-bottom: #cbcbcb;
+	background: url('../images/logo_bg.gif') repeat-x;
+}
+
+#nav {
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	background: #3f4c6b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3f4c6b 0%, #3f4c6b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f4c6b), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3f4c6b 0%,#3f4c6b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3f4c6b 0%,#3f4c6b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0 5px;
+	margin: 0;
+	font-size: 1.4em;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav li.current a {
+	color: #FFF;
+}
+
+#nav li a {
+	text-transform: uppercase;
+	display: block;
+	float: left;
+	padding: 8px;
+	border-right: 1px #aaa solid;
+	color: #000;
+	font-weight: bold;
+}
+
+
+#nav li a:hover {
+	color: #FFF;
+}
+
+.content {
+	margin: 5px auto 0;
+	padding-bottom: 10px;
+}
+
+a#bola_tangkas {
+	display: block;
+	width: 205px;
+	height: 115px;
+	font-size: 14px;
+	margin: 10px 0;
+	background: url('../images/download_sprite.png') no-repeat;
+	color: #fff;
+}
+
+a#bola_tangkas span {
+	color: #ccc;
+	display: block;
+	position: relative;
+	text-align: center;
+	top: 57px;
+	letter-spacing: 1px;
+}
+
+a#bola_tangkas:hover {
+	width: 205px;
+	height: 115px;
+}
+
+a#bola_tangkas:hover, a#bola_tangkas:focus {
+background : transparent url('../images/download_sprite.png') no-repeat 0 -115px;
+}
+
+a#bola_tangkas:hover span {
+	color: #09B203;
+}
+
+#footer {
+	width:980px;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 12px;
+}
+
+#navi_foot {
+	padding: 10px;
+}
+
+#navi_foot li {
+	display: inline;
+	padding: 0 20px 0 0;
+	color: #000;
+}
+
+#navi_foot li a {
+	color: #000;
+}
+
+#kasir_box {
+	width: 800px;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#kasir_download {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+#sidebar_box {
+	height: 100%;
+}
+/*----------------------------------------------------------
+GAME EVENT / .game-event
+----------------------------------------------------------*/
+.game-event {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.game-event img {
+	display: inline-block;
+	margin: 0 auto;
+}
+.game-event ul {
+	width: 75%;
+	margin: 0 auto;
+}
+.game-event ul li {
+	text-align: left;
+}
